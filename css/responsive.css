@@ -1,0 +1,102 @@
+@media (max-width:1199px){
+
+    .aside .toggle-btn{
+        display:-ms-flexbox;
+        display:flex;
+        left:30px;
+    }
+    .aside .toggle-btn.open{
+        left:200px;
+    }
+    .aside{
+        left:-270px;
+    }
+    .aside.open{
+        left:0;
+    }
+    .section{
+        left:0;
+    }
+    .section.open{
+        left:270px;
+    }
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px){
+    .service .service-item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .portfolio .portfolio-item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .blog .blog-item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:767px){
+
+    .about .about-content .personal-info {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .about-content .skills {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .about-content .education{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .about-content .experience{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .service .service-item .service-item-inner,
+    .service .service-item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio .portfolio-filter button{
+        margin-bottom:10px;
+    }
+
+    .blog .blog-item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact .contact-form .col-6{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:575px){
+    .portfolio .portfolio-item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact .contact-info-item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
