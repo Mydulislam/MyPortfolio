@@ -42,6 +42,9 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .projet-area {
+        padding: 20px;
+    }
 }
 
 @media (max-width:767px){
@@ -86,6 +89,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .project, .project-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width:575px){
@@ -98,5 +104,8 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .project, .project-info {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
